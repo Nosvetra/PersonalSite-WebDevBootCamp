@@ -1,0 +1,121 @@
+.fxd{
+    position: sticky;
+    top:0;
+}
+.header{
+    display: flex;
+    gap: 25px;
+    height: 100px;
+    background-color: #C95D98;
+}
+.header > div> a {
+    text-decoration: none;
+    color:white;
+}
+
+.one{
+    margin-left: 25px;
+}
+.three > img{
+  border: 1px solid black;
+  border-radius:50%;
+  
+}
+.three{
+ margin-left: auto;
+ margin-right: 50px;
+
+}
+.cmn{
+    margin-top: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:25px
+}
+.cmnff{
+    font-family: 'Kanit', sans-serif;
+    font-weight:1000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.skls{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.flex2{
+    display: flex;
+    margin-top: 100px;
+}
+.f1{
+    margin-top: 55px;
+    margin-right: 150px;
+}
+.f2{
+    margin-left: auto;
+}
+ 
+
+.flex3{
+    display: flex;
+    justify-content: space-between;
+}
+.f31{
+    margin-top:55px;
+    margin-left:150px;
+}
+
+.f32{
+    order:-1;
+    margin-right: auto;
+}
+
+.flexo{
+    display: flex;
+    gap:50px;
+    justify-content: flex-end;
+}
+.flexo > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+.hehe{
+    background-color: #C95D98;
+}
+
+.poop{
+    text-decoration: none;
+    color:black;
+}
+.poop1{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+@media screen and (max-width:768px) {
+    .flex2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 0%;
+        margin: 0%
+    }
+
+    .f2{
+        order:-1;
+        width: 500px;
+    }
+    .f2>img{
+        height: 100px;
+    
+    }
+    
+}
